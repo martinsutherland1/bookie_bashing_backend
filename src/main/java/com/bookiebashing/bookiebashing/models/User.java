@@ -132,4 +132,8 @@ public class User {
     public void setLosses(int losses) {
         this.losses = losses;
     }
+
+    public void addBet(Bet bet){
+        this.allBets.add(bet);
+    }
 }
