@@ -18,7 +18,7 @@ public class Bet {
     @Column
     private String week;
 
-    @JsonIgnoreProperties(value = "allBets")
+//    @JsonIgnoreProperties(value = "allBets")
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
